@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b23e247.chunk.css",
+    "main.js": "/static/js/main.f85f4d05.chunk.js",
+    "main.js.map": "/static/js/main.f85f4d05.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.24c45bdc.chunk.js": "/static/js/2.24c45bdc.chunk.js",
+    "static/js/2.24c45bdc.chunk.js.map": "/static/js/2.24c45bdc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f3dee5f00fe9cafa1305642b34f547c0.js": "/precache-manifest.f3dee5f00fe9cafa1305642b34f547c0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.3b23e247.chunk.css.map": "/static/css/main.3b23e247.chunk.css.map",
+    "static/js/2.24c45bdc.chunk.js.LICENSE.txt": "/static/js/2.24c45bdc.chunk.js.LICENSE.txt",
+    "static/media/indecision-app-screenshot.png": "/static/media/indecision-app-screenshot.3b8f27a4.png",
+    "static/media/library-app.png": "/static/media/library-app.5d0a3c9b.png",
+    "static/media/picture.jpg": "/static/media/picture.979853c9.jpg",
+    "static/media/short-news.png": "/static/media/short-news.6597aba6.png",
+    "static/media/tea-cozy-screenshot.png": "/static/media/tea-cozy-screenshot.498aab2b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2b20a0b.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.24c45bdc.chunk.js",
+    "static/css/main.3b23e247.chunk.css",
+    "static/js/main.f85f4d05.chunk.js"
+  ]
+}
