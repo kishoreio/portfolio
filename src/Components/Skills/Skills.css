@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+.skills-container {
+  margin: 0px;
+  padding: 50px 0px 50px 50px;
+}
+
+.sub-title {
+  font-family: cabin, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #272341;
+}
+
+.content-border {
+  border-bottom: 3px solid #00cdac;
+}
+
+.about-content {
+  font-family: cabin, sans-serif;
+  font-size: 19px;
+  width: 70%;
+  line-height: 32px;
+}
+
+.skills-tab {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.skill {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.progress {
+  height: 13px !important;
+}
+
+.skill-container {
+  width: 50%;
+}
+
+.text-font {
+  font-family: cabin, sans-serif;
+  font-size: 20px;
+}
+
+.progress-bar {
+  font-size: 13px;
+  background-color: #272341 !important;
+  font-weight: 800;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .skills-container {
+    margin: 20px 0px;
+    padding: 1px 10px;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .skills-tab {
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .skill-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+.about-container {
+  margin: 0px;
+  padding: 50px 0px 30px 50px;
+}
+
+.sub-title {
+  font-family: cabin, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #272341;
+}
+
+.about-border {
+  border-bottom: 3px solid #00cdac;
+}
+
+.about-contents {
+  font-family: cabin, sans-serif;
+  font-size: 22px;
+  width: 100%;
+  line-height: 32px;
+  padding: 0px 33px;
+  margin-top: 30px;
+}
+
+.about-inside {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.image-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-picture {
+  width: 300px;
+  height: 290px;
+  border-radius: 50%;
+  border: 10px solid #272341;
+}
+
+.img-picture:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .about-container {
+    margin: 0px 0px;
+    padding: 1px 10px;
+  }
+  .about-contents {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .about-inside {
+    display: block;
+  }
+  .image-content {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .img-picture {
+    margin: 10px auto;
+    scale: 0.8;
+  }
+  .sub-title {
+    padding-top: 10px;
+  }
+  .img-picture:hover {
+    transform: none;
+  }
+}

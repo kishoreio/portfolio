@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+.contact-container {
+  margin: 0px;
+  padding: 50px 0px 50px 50px;
+  background-image: url("../../Resources/contactme.png");
+  background-color: #212529;
+}
+
+.sub-title {
+  font-family: cabin, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-title {
+  color: white;
+}
+
+.about-border {
+  border-bottom: 3px solid #00cdac;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-inside {
+  width: 50%;
+}
+
+.btn-primary {
+  background-color: #e74c3c !important;
+  border: none !important;
+  border-bottom: 7px solid #922b21 !important;
+}
+
+.btn-primary:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .contact-container {
+    margin: 20px 0px;
+    padding: 1px 10px;
+  }
+  .form-container {
+    display: block;
+    margin-top: 20px;
+  }
+  .form-inside {
+    width: 100%;
+  }
+}

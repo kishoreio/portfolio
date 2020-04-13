@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+
+.main-container {
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.inside-container {
+  padding-top: 170px;
+  animation-name: intro-ani;
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 500ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+.social-icon a {
+  color: white !important;
+}
+
+@keyframes intro-ani {
+  0% {
+    opacity: 0;
+    transform: translate3d(-30px, 0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.main-heading,
+.intro {
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  font-family: cabin, sans-serif;
+  text-align: center;
+}
+
+.intro-font {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.social-icon {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+.social-icon:visited,
+.social-icon:active {
+  color: white;
+}
+
+.icon {
+  margin: 7px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .main-container {
+    clip-path: none;
+  }
+  .inside-container {
+    padding-top: 180px;
+  }
+  .main-heading,
+  .intro {
+    font-size: 40px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    font-family: cabin, sans-serif;
+    text-align: center;
+    margin: 30px auto;
+  }
+
+  .intro-font {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  .social-icon {
+    font-size: 28px;
+  }
+}

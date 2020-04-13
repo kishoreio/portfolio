@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  font-family: cabin, sans-serif;
+  padding: 10px 0px;
+  color: white;
+  background-color: #333;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social a {
+  color: white !important;
+}
+
+.icon-footer {
+  font-size: 25px;
+}
+
+.icon-react {
+  font-size: 20px;
+}
+
+.made {
+  display: inline;
+  padding-left: 5px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .footer-mobile {
+    font-size: 13px;
+  }
+  .icon-footer {
+    font-size: 20px;
+    margin: 0 4px;
+  }
+  .form-inside {
+    margin-bottom: 10px;
+  }
+  .footer-content {
+    margin-top: -21px;
+  }
+}

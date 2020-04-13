@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin&display=swap");
+.project-container {
+  margin: 0px;
+  padding: 50px 0px 50px 50px;
+  /* linear-gradient(135deg, #02aab0, #00cdac) */
+}
+
+.sub-title {
+  font-family: cabin, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #272341;
+}
+
+.about-border {
+  border-bottom: 3px solid #00cdac;
+}
+
+.main-project {
+  margin: 20px auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.git-container {
+  height: inherit;
+  width: 30%;
+  box-shadow: 2px 2px 10px 0px black;
+  display: flex;
+  border-radius: 5px;
+}
+
+.containOne {
+  width: 50%;
+}
+
+.containTwo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  text-align: left;
+  width: 50%;
+  border-bottom: 5px solid #00cdac;
+  font-size: 20px;
+  color: #272341;
+  padding: 2px 4px;
+  font-weight: 600;
+}
+
+.project-content {
+  margin: 10px;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 17px;
+  color: #272341;
+}
+
+.project-link {
+  display: flex;
+}
+
+.project-web,
+.project-icon {
+  margin: 0px;
+}
+
+.project-icon {
+  padding: 0px 2px;
+  color: white;
+}
+
+.project-web {
+  background: rgb(50, 47, 70);
+  padding: 3px 25px 3px 3px;
+  clip-path: polygon(0px 0%, 100% 0%, calc(100% - 20px) 100%, 0% 100%);
+  color: white;
+}
+
+.project-image {
+  margin: 3px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.project-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-tech {
+  background: #272341;
+  padding: 0px 3px 0px 20px;
+  clip-path: polygon(20px 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.project-tech-icon {
+  color: white;
+  margin: 0px 5px;
+}
+
+.git-container:hover {
+  animation-name: github;
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+.project-link a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #272341;
+}
+
+@keyframes github {
+  0% {
+    transform: translate3d(0px, 20%, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .project-container {
+    margin: 20px 0px;
+    padding: 1px 10px;
+  }
+  .main-project {
+    display: block;
+  }
+  .git-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .git-container:hover {
+    animation: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .main-project {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
